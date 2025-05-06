@@ -5,13 +5,13 @@ By Default we use Common JS,ejs,cjs
 npm init -> creates package.json  
 npm i express -> install express  
 npm i --save-dev-nodemon  also do "dev" : "nodemon server.js" in package.json and do npm run dev  
-npm install dotenv  
 
-// remember No quotes around values, no semicolon  
+npm install dotenv  
+remember No quotes around values, no semicolon  
 PORT=5000  
 SECRET_KEY=supersecret  
 
-
+npm i mongoose 
 
 server.js  
 const express = require('express');  
